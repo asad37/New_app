@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:my_app/home_screen.dart';
 
+import 'FirebaseImage.dart';
 import 'firebase_options.dart';
 import 'login_screen.dart';
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
        primarySwatch: Colors.blue
       ),
-      home: const LoginScreen()
+      home: const LoginScreen(),
     );
   }
 }
